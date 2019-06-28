@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "AtomicSwift",
+        "repositoryURL": "https://github.com/MarioIannotta/AtomicSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "ea74bbfe3cc4a89c1db299d1becb6106f36efe4a",
+          "version": "1.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
