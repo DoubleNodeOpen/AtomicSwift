@@ -1,8 +1,15 @@
 # AtomicSwift
-A property delegate to declare atomic properties in swift
+A property wrapper to declare atomic properties in swift
+
+![AtomicSwift: The atomic qualifier Swift was missing](https://raw.githubusercontent.com/MarioIannotta/AtomicSwift/master/SwizzleSwift.png)
+
+# Installation
+
+## Swift package manager
+> From Xcode, select File → Swift Packages → Add Package Dependency → Select your project → Search **SwizzleSwift**
 
 # Usage
-Add @Atomic before you variable declaration.
+Just add the `@Atomic` qualifier before your variable declaration.
 
 # Example:
 
