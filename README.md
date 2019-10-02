@@ -1,7 +1,7 @@
 # AtomicSwift
 A property wrapper to declare atomic properties in swift
 
-![AtomicSwift: The atomic qualifier Swift was missing](https://raw.githubusercontent.com/MarioIannotta/AtomicSwift/master/SwizzleSwift.png)
+![AtomicSwift: The atomic qualifier Swift was missing](https://raw.githubusercontent.com/MarioIannotta/AtomicSwift/master/AtomicSwift.png)
 
 # Installation
 
