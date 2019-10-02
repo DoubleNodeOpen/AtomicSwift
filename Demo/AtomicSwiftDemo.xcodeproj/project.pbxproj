@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		791349F322C658EA009C4E33 /* AtomicSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 791349F222C658EA009C4E33 /* AtomicSwift */; };
 		79388E5322C64B6000DF464D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79388E5222C64B6000DF464D /* AppDelegate.swift */; };
 		79388E5522C64B6000DF464D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79388E5422C64B6000DF464D /* SceneDelegate.swift */; };
 		79388E5722C64B6000DF464D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79388E5622C64B6000DF464D /* ViewController.swift */; };
 		79388E5A22C64B6000DF464D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79388E5822C64B6000DF464D /* Main.storyboard */; };
 		79388E5C22C64B6200DF464D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79388E5B22C64B6200DF464D /* Assets.xcassets */; };
 		79388E5F22C64B6200DF464D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79388E5D22C64B6200DF464D /* LaunchScreen.storyboard */; };
+		AC9889EB2345349B000422B9 /* AtomicSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AC9889EA2345349B000422B9 /* AtomicSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				791349F322C658EA009C4E33 /* AtomicSwift in Frameworks */,
+				AC9889EB2345349B000422B9 /* AtomicSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 			);
 			name = AtomicSwiftDemo;
 			packageProductDependencies = (
-				791349F222C658EA009C4E33 /* AtomicSwift */,
+				AC9889EA2345349B000422B9 /* AtomicSwift */,
 			);
 			productName = AtomicSwiftDemo;
 			productReference = 79388E4F22C64B6000DF464D /* AtomicSwiftDemo.app */;
@@ -125,7 +125,7 @@
 			);
 			mainGroup = 79388E4622C64B6000DF464D;
 			packageReferences = (
-				791349F122C658EA009C4E33 /* XCRemoteSwiftPackageReference "AtomicSwift" */,
+				AC9889E92345349B000422B9 /* XCRemoteSwiftPackageReference "AtomicSwift" */,
 			);
 			productRefGroup = 79388E5022C64B6000DF464D /* Products */;
 			projectDirPath = "";
@@ -354,20 +354,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		791349F122C658EA009C4E33 /* XCRemoteSwiftPackageReference "AtomicSwift" */ = {
+		AC9889E92345349B000422B9 /* XCRemoteSwiftPackageReference "AtomicSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/MarioIannotta/AtomicSwift.git";
 			requirement = {
-				kind = exactVersion;
-				version = 1.0.0;
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		791349F222C658EA009C4E33 /* AtomicSwift */ = {
+		AC9889EA2345349B000422B9 /* AtomicSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 791349F122C658EA009C4E33 /* XCRemoteSwiftPackageReference "AtomicSwift" */;
+			package = AC9889E92345349B000422B9 /* XCRemoteSwiftPackageReference "AtomicSwift" */;
 			productName = AtomicSwift;
 		};
 /* End XCSwiftPackageProductDependency section */

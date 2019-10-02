@@ -12,16 +12,12 @@ import AtomicSwift
 class ViewController: UIViewController {
     
     @Atomic
-    private var atomicInt = 0
-    
-    @Atomic
     private var atomicDictionary = [Int: Int]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         DispatchQueue.concurrentPerform(iterations: 100000) { _ in
-            self.atomicInt += 1
             self.atomicDictionary[.random(in: 1...100)] = 1
         }
         
