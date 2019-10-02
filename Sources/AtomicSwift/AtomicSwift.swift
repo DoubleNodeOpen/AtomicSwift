@@ -8,17 +8,17 @@
 
 import Foundation
 
-@propertyDelegate
+@propertyWrapper
 public final class Atomic<Value> {
     
     private var lock = os_unfair_lock()
     private var _value: Value
     
-    public init(initialValue value: Value) {
+    public init(wrappedValue value: Value) {
         _value = value
     }
     
-    public var value: Value {
+    public var wrappedValue: Value {
         get {
             os_unfair_lock_lock(&lock)
             defer { os_unfair_lock_unlock(&lock) }
