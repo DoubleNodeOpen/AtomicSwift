@@ -2,6 +2,7 @@
 A property wrapper to declare atomic properties in swift
 
 ![AtomicSwift: The atomic qualifier Swift was missing](https://raw.githubusercontent.com/MarioIannotta/AtomicSwift/master/AtomicSwift.png)
+<br/>
 [![Version](https://img.shields.io/cocoapods/v/AtomicSwift.svg?style=flat)](https://cocoapods.org/pods/AtomicSwift)
 [![License](https://img.shields.io/cocoapods/l/AtomicSwift.svg?style=flat)](https://cocoapods.org/pods/AtomicSwift)
 [![Platform](https://img.shields.io/cocoapods/p/AtomicSwift.svg?style=flat)](https://cocoapods.org/pods/AtomicSwift)
