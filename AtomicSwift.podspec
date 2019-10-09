@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AtomicSwift'
-  s.version          = '1.2.0'
+  s.version          = '1.2.1'
   s.summary          = 'The atomic qualifier Swift was missing'
   s.description      = <<-DESC
 AtomicSwift is a a property wrapper to declare atomic properties in swift using the simple qualifier `@Atomic`.
